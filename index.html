@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+<link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/button.css">
+    <link rel="stylesheet" href="./CSS/common.css">
+    <title>Portfolio - day1</title>
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header id="headerdiv">
+    <nav>
+        <img src="./Public/logo.png" alt="logo" />
+        <button class="nav-toggle" aria-label="toggle navigation">
+            &#9776;
+        </button>
+        <ul class="navclass">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <!-- <video src="./blackhole.webm" width="1000" autoplay muted loop class="herovideo" class="about_video"></video> -->
+            <div class="about_info">
+              
+                <article class="about_info_text">
+                    <h1>About <span>Me</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum aliquid eum nemo saepe enim
+                        impedit consequuntur, voluptatibus minima incidunt hic accusantium nulla? Illum minima
+                        praesentium adipisci dicta laboriosam error veritatis.
+                        Adipisci aliquam vitae maxime dignissimos sit, delectus autem nemo aliquid distinctio optio
+                        cumque quae vero exercitationem odio ipsa veniam voluptas veritatis libero eaque molestias.
+                        Quisquam tempora ab dolorem quo expedita!
+                      
+                    </p>
+                </article>
+                <img src="./Public/astro.png" alt="error loading page" class="about_img">
+            </div>
+        </section>
+
+      <!-- Skills Section -->
+  <section id="skills">
+    <header>
+        <h2 class="header_skills">Skills</h2>
+    </header>
+    <ul class="skills_ul">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>jQuery</li>
+        <li>Tailwind</li>
+        <li>Nextjs</li>
+    </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <header>
+        <h2 class="header_projects" >Projects</h2>
+    </header>
+   <div class="projects_card">
+    <article class="1">
+        <h3>Merotest</h3>
+        <p>A clean company portfolio website built with Reactjs and CSS3.</p>
+        <button type="button" class="space-button" onclick="window.open('https://merotest.vercel.app/', '_blank');">
+          View project
+      </button>
+    </article>
+    <article article class="2">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio website built with Nextjs, Tailwind, CSS and Framer motion.</p>
+        <button type="button" class="space-button">View project</button>
+    </article>
+    <article article class="3">
+        <h3>Astro_web</h3>
+        <p>Responsive, astro-themed portfolio website built with HTML, CSS, and JavaScript.</p>
+        <button type="button" class="space-button">View project</button>
+    </article>
+    <!-- 4th -->
+    <article article class="4">
+        <h3>Demo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          numquam ratione inventore sunt quidem nihil officiis culpa.</p>
+        <button type="button" class="space-button">View project</button>
+    </article>
+
+    <!-- 5th -->
+    <article article class="5">
+        <h3>Epaath</h3>
+        <p>This E-Paath chapter was develped to teach students about the basic concept
+           of shapes and their components.</p>
+
+        <button type="button" class="space-button" onclick="window.open('https://epaath.olenepal.org/start.html?id=scilap01&lang=en&grade=1', '_blank');">
+          View project
+      </button>
+    </article>
+
+    <!-- 6th -->
+    <article class="6">
+      <h3>Epaath</h3>
+      <p>This E-Paath chapter was designed to help students learn how to classify the plants into three types: tree, shrub and herb.</p>
+      <button type="button" class="space-button" onclick="window.open('https://epaath.olenepal.org/start.html?id=matngs01&lang=en&grade=2', '_blank');">
+          View project
+      </button>
+  </article>
+  
+
+   </div>
+</section>
+
+        
+<!-- Contact Form Section -->
+<section id="contact" class="footer_get_touch_outer">
+    <div class="container">
+      <div class="footer_get_touch_inner grid-70-30">
+        <div class="colmun-70 get_form">
+          <div class="get_form_inner">
+            <div class="get_form_inner_text">
+              <h3>Get In Touch</h3>
+            </div>
+            <form action="#">
+              <div class="grid-50-50">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone/Skype" required>
+              </div>
+              <div class="grid-full">
+                <textarea placeholder="Write your message here" cols="30" rows="10" required></textarea>
+                <button type="submit" class="space-button">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="colmun-30 get_say_form">
+          <h5>Say Hi!</h5>
+            <img src="./Public/astro.png" alt="Contact Image" style="max-width:100%; height:auto;">
+          
+          <ul class="get_say_social-icn">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li> <!-- Facebook brand icon -->
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li> <!-- Instagram brand icon -->
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li> <!-- Twitter brand icon -->
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li> <!-- LinkedIn brand icon -->
+          </ul>
+        </div>       
+        </div>        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer >
+    <p>&copy; 2024 copyright reserved</p>
+</footer>
+    </main>
+    <audio id="background-audio" loop autoplay controls muted>
+      <source src="./Public/audio.mp3" type="audio/mp3">
+      Your browser does not support audio.
+  </audio>
+  
+  
+  <!-- Modal Structure -->
+  <div id="music-modal" class="modal">
+      <div class="modal-content">
+     <span class="close-button">&times;</span>
+     <div class="top">    
+      <h2 class="modal_h2">Would you like to hear some music?</h2>
+      <div class="btn">  <button id="yes-button" class="space-button btn-modal">Yes</button>
+          <button id="no-button" class="space-button btn-modal">No</button></div></div>
+  
+  </div>
+  </div>
+</body>
+<script src="./JS/script.js"></script>
+</html>
