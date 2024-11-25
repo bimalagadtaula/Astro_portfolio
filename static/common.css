@@ -1,0 +1,83 @@
+.header_skills, .header_projects{
+    color: #f9afff;
+    font-weight:bolder;
+font-size: 2rem;
+} 
+.modal {
+  display: none; /* Initially hidden */
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #360082, #7100c1, #bb00ff, #2f0047); /* Change gradient on hover */
+  margin: 15% auto;
+  padding: 20px;
+  width: 30%;
+  height: 40%;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+
+.close-button {
+  position: absolute;
+  color: black;
+  /* float: right; */
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  top: 33%;
+  left: 60%;
+  background-color: #f2f2f2; /* Slight hover effect */
+  padding: 6px 14px 6px 14px;
+}
+
+.close-button:hover, .close-button:focus {
+  text-decoration: none;
+  cursor: pointer;
+ 
+transition: ease 1s;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  margin: 20px;
+  background-color: #f2f2f2; /* Slight hover effect */
+  gap: 3px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.modal_h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn {
+  display: flex; /* Align buttons horizontally */
+  justify-content: space-between; /* Space between the buttons */
+  gap: 20px; /* Add space between buttons */
+  margin-top: 11%;
+  width: 60%; /* Ensure the button container takes full width */
+}
+
+
+.about_info, .get_form, img{
+  z-index:99;
+}
+
