@@ -1,0 +1,3 @@
+﻿Welcome to Day 2 of my 40-day coding challenge! Today, I dove into CSS basics like selectors, the box model, and text styling. I’m using these skills to start styling my portfolio page. I also explored the fundamentals of Flexbox, which is essential for creating flexible and responsive layouts.
+Day 2 is done, and I'm excited to keep building on what I've learned. Stay tuned for more frontend development updates!
+Thank you!
