@@ -170,7 +170,7 @@ ul > li > a {
 .about_info_text {
     flex-grow: 2;
     color: white;
-    padding: 10%;
+    padding: 6%;
 }
 
 .about_info_text > h1 {
@@ -187,7 +187,7 @@ ul > li > a {
 .about_img {
     max-width: 100%;
     height: auto;
-    width: 300px;
+    /* width: 300px; */
     margin-left: 20px;
     filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8)); /* Creates a soft glow */
 }
@@ -283,12 +283,12 @@ ul > li > a {
 .skills_ul>li {
     position: absolute;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    height: 95px;
+    width: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #fff;
     border: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
     /* Bubble gradient */
@@ -337,7 +337,31 @@ ul > li > a {
 }
 
 .skills_ul>li:nth-child(7) {
+    bottom: 55%;
+    left: 33%;
+    animation-duration: 15s;
+}
+
+.skills_ul>li:nth-child(8) {
     bottom: 30%;
+    right: 90%;
+    animation-duration: 15s;
+}
+
+.skills_ul>li:nth-child(9) {
+    bottom: 46%;
+    left: 63%;
+    animation-duration: 15s;
+}
+
+.skills_ul>li:nth-child(10) {
+    bottom: 30%;
+    left: 88%;
+    animation-duration: 15s;
+}
+
+.skills_ul>li:nth-child(11) {
+    bottom: 20%;
     left: 10%;
     animation-duration: 15s;
 }
